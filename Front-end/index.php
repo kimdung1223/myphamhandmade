@@ -8,11 +8,9 @@
 </head>
 
 <body>
-<?php if (!isset($_SESSION)) session_start();?>
-
 <div id="container">
    	<div id="header">
-   	  		<?php include('include/header.php'); ?> 
+   	  <?php include('include/header.php'); ?> 
         </div>
         <div id="menu">
         	<?php include('include/menu.php'); ?>

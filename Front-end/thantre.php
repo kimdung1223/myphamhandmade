@@ -75,9 +75,7 @@ iframe
               	<img src="hinh/sp/bột/botthantre.jpg"/>
               </div>
               <div id="cont_right">
-           		<div id="cont_right_title"><?php
-						include "config.php";
-				include "autoload.php"; 
+           		<div id="cont_right_title"><?php 
 						$obj = new sanpham();
 						$data=$obj->getOne("THT");
 						echo $data[0]["tensp"];?> </div>
